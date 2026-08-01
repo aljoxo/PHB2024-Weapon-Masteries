@@ -28,7 +28,6 @@ data "Description" "hc788658agbbc2g4cd4gbb91g85bcc8520a00;1"
 // TO DO: see if this works
 data "DescriptionParams" "DealDamage(APO_WM_AttackAbilityModifier(),MainMeleeWeaponDamageType)"
 data "Properties" "Highlighted"
-data "BoostConditions" "IsWeaponOfProficiencyGroup('Glaives|Greatswords', GetActiveWeapon())"
 data "Boosts" "UnlockInterrupt(APO_WM_Graze)"
 
 // Nick
@@ -55,7 +54,6 @@ data "DisplayName" "h244b3815g2ba6g4babg8499gbb18368d56fc;1"
 data "Description" "hb0761d4cgda95g414eg957fg86e12adfa008;1"
 data "DescriptionParams" "Distance(3)"
 data "Properties" "Highlighted"
-data "BoostConditions" "IsWeaponOfProficiencyGroup('Greatclubs|Pikes|Warhammers|HeavyCrossbows', GetActiveWeapon())"
 data "Boosts" "UnlockInterrupt(APO_WM_Push)"
 
 // Sap
@@ -74,7 +72,7 @@ data "StatsFunctors" "ApplyStatus(APO_WM_SAPPED,100,1)"
 // Slow
 new entry "APO_WM_Slow"
 type "PassiveData"
-data "Icon" "Target_PostureBreaker"
+data "Icon" "Action_PostureBreaker"
 // Weapon Mastery: Slow
 data "DisplayName" "h4da0ed8bga702g458cgb844g90c841dfd594;1"
 // When you hit a creature with this weapon, you can reduce its <LSTag Tooltip="MovementSpeed">movement speed</LSTag> by [1] until the start of your next turn.
@@ -199,7 +197,7 @@ using "APO_WM_Push"
 data "DisplayName" "hc187904dgee74g4bc2gb7eag2795f4e2d0b7;1"
 // When you hit a creature with a Greatclub, you can push the creature up to [1] away from you.
 data "Description" "h9e71889age9c1g4ef5g8527g8a281d0f25fc;1"
-data "BoostConditions" "IsWeaponOfProficiencyGroup('Greatclubs', GetActiveWeapon())"
+data "Boosts" "IF(IsWeaponOfProficiencyGroup('Greatclubs', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):UnlockInterrupt(APO_WM_Push_Greatclubs)"
 
 new entry "APO_WM_LightCrossbows"
 type "PassiveData"
@@ -320,7 +318,7 @@ using "APO_WM_Push"
 data "DisplayName" "h5f8d98ddg6c6fg4bb2g9f2bgea30156835e7;1"
 // When you hit a creature with a Warhammer, you can push the creature up to [1] away from you.
 data "Description" "h2d398536g6e6fg44a3g9a69gc0223ae6203b;1"
-data "BoostConditions" "IsWeaponOfProficiencyGroup('Warhammers', GetActiveWeapon())"
+data "Boosts" "IF(IsWeaponOfProficiencyGroup('Warhammers', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):UnlockInterrupt(APO_WM_Push_Warhammers)"
 
 new entry "APO_WM_Glaives"
 type "PassiveData"
@@ -329,7 +327,7 @@ using "APO_WM_Graze"
 data "DisplayName" "h87ba90e2ga3fbg4675g9f21g5f26cdde842c;1"
 // When you miss an attack using a Glaive, deal [1].
 data "Description" "h7c3bf2a0gc508g41adg8799g62fff4e9f8aa;1"
-data "BoostConditions" "IsWeaponOfProficiencyGroup('Glaives', GetActiveWeapon())"
+data "Boosts" "IF(IsWeaponOfProficiencyGroup('Glaives', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):UnlockInterrupt(APO_WM_Graze_Glaives)"
 
 new entry "APO_WM_Greataxes"
 type "PassiveData"
@@ -347,7 +345,7 @@ using "APO_WM_Graze"
 data "DisplayName" "h6226083cgc8bbg470dgbb87g6580694df760;1"
 // When you miss an attack using a Greatsword, deal [1].
 data "Description" "h9510da94g1339g4d25g8600g16d12edd937d;1"
-data "BoostConditions" "IsWeaponOfProficiencyGroup('Greatswords', GetActiveWeapon())"
+data "Boosts" "IF(IsWeaponOfProficiencyGroup('Greatswords', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):UnlockInterrupt(APO_WM_Graze_Greatswords)"
 
 new entry "APO_WM_Halberds"
 type "PassiveData"
@@ -374,7 +372,7 @@ using "APO_WM_Push"
 data "DisplayName" "h24357ba8g7b89g4975g8fc3g8cb7ede25bb6;1"
 // When you hit a creature with a Pike, you can push the creature up to [1] away from you.
 data "Description" "h57938e3ag8e74g42a6g884bg93eff1868bd5;1"
-data "BoostConditions" "IsWeaponOfProficiencyGroup('Pikes', GetActiveWeapon())"
+data "Boosts" "IF(IsWeaponOfProficiencyGroup('Pikes', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):UnlockInterrupt(APO_WM_Push_Pikes)"
 
 new entry "APO_WM_HandCrossbows"
 type "PassiveData"
@@ -394,8 +392,7 @@ data "Icon" "Action_PushingAttack_Ranged"
 data "DisplayName" "hc29eeac5g7214g4e6ega413g0222bf697ed8;1"
 // When you hit a creature with a Heavy Crossbow, you can push the creature up to [1] away from you.
 data "Description" "h4974bfc0g61f7g4b2cgbbbeg5566fc1ec446;1"
-data "BoostConditions" "IsWeaponOfProficiencyGroup('HeavyCrossbows', GetActiveWeapon())"
-data "Boosts" "UnlockInterrupt(APO_WM_Push_Ranged)"
+data "Boosts" "IF(IsWeaponOfProficiencyGroup('HeavyCrossbows', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):UnlockInterrupt(APO_WM_Push_HeavyCrossbows)"
 
 new entry "APO_WM_Longbows"
 type "PassiveData"

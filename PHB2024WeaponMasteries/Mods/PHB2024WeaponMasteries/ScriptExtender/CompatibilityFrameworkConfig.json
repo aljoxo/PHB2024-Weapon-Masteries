@@ -11,7 +11,7 @@
             "Params": {
               "Guid": "f8dd166d-9d41-4326-ba24-b4fcfa80ee29",
               "Amount": "2",
-              "SelectorId": "WeaponMasteries"
+              "SelectorId": "APO_WeaponMasteries"
             }
           }
         ]
@@ -26,7 +26,7 @@
             "Params": {
               "Guid": "f8dd166d-9d41-4326-ba24-b4fcfa80ee29",
               "Amount": "2",
-              "SelectorId": "WeaponMasteries"
+              "SelectorId": "APO_WeaponMasteries"
             }
           }
         ]
@@ -41,7 +41,7 @@
             "Params": {
               "Guid": "f8dd166d-9d41-4326-ba24-b4fcfa80ee29",
               "Amount": "1",
-              "SelectorId": "WeaponMasteries"
+              "SelectorId": "APO_WeaponMasteries"
             }
           }
         ]
@@ -56,7 +56,7 @@
             "Params": {
               "Guid": "f8dd166d-9d41-4326-ba24-b4fcfa80ee29",
               "Amount": "1",
-              "SelectorId": "WeaponMasteries"
+              "SelectorId": "APO_WeaponMasteries"
             }
           }
         ]
@@ -71,7 +71,7 @@
             "Params": {
               "Guid": "d4f1c93f-fb8a-41f7-bce5-4afbfb21576a",
               "Amount": "3",
-              "SelectorId": "WeaponMasteries"
+              "SelectorId": "APO_WeaponMasteries"
             }
           }
         ]
@@ -86,7 +86,7 @@
             "Params": {
               "Guid": "d4f1c93f-fb8a-41f7-bce5-4afbfb21576a",
               "Amount": "3",
-              "SelectorId": "WeaponMasteries"
+              "SelectorId": "APO_WeaponMasteries"
             }
           }
         ]
@@ -101,7 +101,7 @@
             "Params": {
               "Guid": "d4f1c93f-fb8a-41f7-bce5-4afbfb21576a",
               "Amount": "1",
-              "SelectorId": "WeaponMasteries"
+              "SelectorId": "APO_WeaponMasteries"
             }
           }
         ]
@@ -116,7 +116,7 @@
             "Params": {
               "Guid": "d4f1c93f-fb8a-41f7-bce5-4afbfb21576a",
               "Amount": "1",
-              "SelectorId": "WeaponMasteries"
+              "SelectorId": "APO_WeaponMasteries"
             }
           }
         ]
@@ -131,7 +131,7 @@
             "Params": {
               "Guid": "d4f1c93f-fb8a-41f7-bce5-4afbfb21576a",
               "Amount": "1",
-              "SelectorId": "WeaponMasteries"
+              "SelectorId": "APO_WeaponMasteries"
             }
           }
         ]
@@ -146,7 +146,7 @@
             "Params": {
               "Guid": "d4f1c93f-fb8a-41f7-bce5-4afbfb21576a",
               "Amount": "2",
-              "SelectorId": "WeaponMasteries"
+              "SelectorId": "APO_WeaponMasteries"
             }
           }
         ]
@@ -161,7 +161,7 @@
             "Params": {
               "Guid": "d4f1c93f-fb8a-41f7-bce5-4afbfb21576a",
               "Amount": "2",
-              "SelectorId": "WeaponMasteries"
+              "SelectorId": "APO_WeaponMasteries"
             }
           }
         ]
@@ -176,7 +176,7 @@
             "Params": {
               "Guid": "d4f1c93f-fb8a-41f7-bce5-4afbfb21576a",
               "Amount": "2",
-              "SelectorId": "WeaponMasteries"
+              "SelectorId": "APO_WeaponMasteries"
             }
           }
         ]
@@ -191,7 +191,7 @@
             "Params": {
               "Guid": "d4f1c93f-fb8a-41f7-bce5-4afbfb21576a",
               "Amount": "2",
-              "SelectorId": "WeaponMasteries"
+              "SelectorId": "APO_WeaponMasteries"
             }
           }
         ]
@@ -206,7 +206,7 @@
             "Params": {
               "Guid": "10b330a5-3da9-4f75-a808-d6aa1ca4ce54",
               "Amount": "2",
-              "SelectorId": "WeaponMasteries"
+              "SelectorId": "APO_WeaponMasteries"
             }
           }
         ]
@@ -221,7 +221,7 @@
             "Params": {
               "Guid": "10b330a5-3da9-4f75-a808-d6aa1ca4ce54",
               "Amount": "2",
-              "SelectorId": "WeaponMasteries"
+              "SelectorId": "APO_WeaponMasteries"
             }
           }
         ]

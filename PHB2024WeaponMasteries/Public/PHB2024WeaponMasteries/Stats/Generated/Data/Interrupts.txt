@@ -1,3 +1,5 @@
+// ============================== Graze Interrupts ==============================
+
 new entry "Interrupt_APO_WM_Graze"
 type "InterruptData"
 // Weapon Mastery: Graze
@@ -10,12 +12,25 @@ data "Icon" "Action_PommelStrike"
 data "InterruptContext" "OnCastHit"
 data "InterruptContextScope" "Self"
 data "Container" "YesNoDecision"
-data "Conditions" "Self(context.Source,context.Observer) and (IsCriticalMiss() or IsMiss()) and IsMeleeWeaponAttack() and IsProficientWithEquippedWeapon() and not AnyEntityIsItem()"
+data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('Greatswords|Glaives', GetAttackWeapon())"
 // TO DO: see if this works
 data "Properties" "DealDamage(APO_WM_AttackAbilityModifier(),MainMeleeWeaponDamageType)"
 data "InterruptDefaultValue" "Ask;Enabled"
-data "EnableCondition" "not (HasStatus('SG_Polymorph_BeastShape') or Tagged('MINDFLAYER') or Tagged('SLAYER') or Tagged('MYRMIDON_AIR') or Tagged('MYRMIDON_EARTH') or Tagged('MYRMIDON_FIRE') or Tagged('MYRMIDON_WATER'));"
+data "EnableCondition" "Goon_InterruptEnableConditions()"
 data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+data "InterruptFlags" "InterruptWhileInvisible"
+
+new entry "Interrupt_APO_WM_Graze_Glaives"
+type "InterruptData"
+using "Interrupt_APO_WM_Graze"
+data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('Glaives', GetAttackWeapon())"
+
+new entry "Interrupt_APO_WM_Graze_Greatsword"
+type "InterruptData"
+using "Interrupt_APO_WM_Graze"
+data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('Greatswords', GetAttackWeapon())"
+
+// ============================== Push Interrupts ==============================
 
 new entry "Interrupt_APO_WM_Push"
 type "InterruptData"
@@ -27,13 +42,30 @@ data "Description" "h42c0ea96g634eg4a3cgaf64gccc7367f1fdb;1"
 data "InterruptContext" "OnCastHit"
 data "InterruptContextScope" "Self"
 data "Container" "YesNoDecision"
-data "Conditions" "Self(context.Source,context.Observer) and (IsCriticalMiss() or IsMiss()) and IsMeleeWeaponAttack() and IsProficientWithEquippedWeapon() and not AnyEntityIsItem()"
+data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('Greatclubs|Warhammers|Pikes', GetAttackWeapon())"
 data "Properties" "TARGET:IF(TargetSizeEqualOrSmaller(Size.Large,context.HitDescription.ThrownObject)):ApplyStatus(APO_WM_PUSH,100,0)"
 data "InterruptDefaultValue" "Ask;Enabled"
-data "EnableCondition" "not (HasStatus('SG_Polymorph_BeastShape') or Tagged('MINDFLAYER') or Tagged('SLAYER') or Tagged('MYRMIDON_AIR') or Tagged('MYRMIDON_EARTH') or Tagged('MYRMIDON_FIRE') or Tagged('MYRMIDON_WATER'));"
+data "EnableCondition" "Goon_InterruptEnableConditions()"
 data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+data "InterruptFlags" "InterruptWhileInvisible"
 
-new entry "Interrupt_APO_WM_Push_Ranged"
+new entry "Interrupt_APO_WM_Push_Greatclubs"
+type "InterruptData"
+using "Interrupt_APO_WM_Push"
+data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('Greatclubs', GetAttackWeapon())"
+
+new entry "Interrupt_APO_WM_Push_Pikes"
+type "InterruptData"
+using "Interrupt_APO_WM_Push"
+data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('Pikes', GetAttackWeapon())"
+
+new entry "Interrupt_APO_WM_Push_Warhammers"
+type "InterruptData"
+using "Interrupt_APO_WM_Push"
+data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('Warhammers', GetAttackWeapon())"
+
+new entry "Interrupt_APO_WM_Push_HeavyCrossbows"
 type "InterruptData"
 using "Interrupt_APO_WM_Push"
 data "Icon" "Action_PushingAttack_Ranged"
+data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('HeavyCrossbows', GetAttackWeapon())"
