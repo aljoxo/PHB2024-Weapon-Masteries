@@ -1,1 +1,1 @@
-Ext.Require("Server/WeaponActions.lua")
+Ext.Require("Client/WeaponActions.lua")

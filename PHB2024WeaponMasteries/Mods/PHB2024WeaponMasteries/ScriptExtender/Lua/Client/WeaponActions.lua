@@ -1,33 +1,33 @@
 local APO_WeaponSpells = {
-  "Target_PostureBreaker",
-  "Shout_Steady",
-  "Zone_Cleave",
-  "Target_ConcussiveSmash",
-  "Target_CripplingStrike",
-  "Target_DisarmingStrike",
-  "Target_OpeningAttack",
-  "Target_HeartStopper",
-  "Target_Slash_New",
-  "Target_PiercingThrust",
-  "Target_PommelStrike",
-  "Shout_FullSwing",
-  "Rush_SpringAttack",
-  "Interrupt_Overwhelm",
-  "Target_Topple",
-  "Target_HinderingSmash",
-  "Shout_SteadyRangedCrossbow",
-  "Projectile_HamstringShot",
-  "Projectile_MobileShooting",
-  "Projectile_PiercingShot"
+  ["Target_PostureBreaker"] = true,
+  ["Shout_Steady"] = true,
+  ["Zone_Cleave"] = true,
+  ["Target_ConcussiveSmash"] = true,
+  ["Target_CripplingStrike"] = true,
+  ["Target_DisarmingStrike"] = true,
+  ["Target_OpeningAttack"] = true,
+  ["Target_HeartStopper"] = true,
+  ["Target_Slash_New"] = true,
+  ["Target_PiercingThrust"] = true,
+  ["Target_PommelStrike"] = true,
+  ["Shout_FullSwing"] = true,
+  ["Rush_SpringAttack"] = true,
+  ["Interrupt_Overwhelm"] = true,
+  ["Target_Topple"] = true,
+  ["Target_HinderingSmash"] = true,
+  ["Shout_SteadyRangedCrossbow"] = true,
+  ["Projectile_HamstringShot"] = true,
+  ["Projectile_MobileShooting"] = true,
+  ["Projectile_PiercingShot"] = true
 }
 
-local function APO_SpellsToRemove(entry)
-  for i, name in ipairs(APO_WeaponSpells) do
-    if string.find(entry, name) then
-      return true
-    end
-  end
-end
+-- local function APO_SpellsToRemove(entry)
+--   for i, name in ipairs(APO_WeaponSpells) do
+--     if string.find(entry, name) then
+--       return true
+--     end
+--   end
+-- end
 
 Ext.Events.StatsLoaded:Subscribe(function(StatsLoaded)
   for i, name in pairs(Ext.Stats.GetStats("Weapon")) do
@@ -36,18 +36,19 @@ Ext.Events.StatsLoaded:Subscribe(function(StatsLoaded)
 
     if boosts and boosts ~= "" then
       local updatedBoost = false
-      local emptyBoost = {}
-      
-      for entry in string.gmatch(boosts, "([^;]+)") dp
-        if APO_SpellsToRemove(entry) then
+      local keptBoosts = {}
+
+      for entry in string.gmatch(boosts, "([^;]+)") do
+        local spellId = entry:match("^UnlockSpell%(([^,%)]+)")
+        if spellId and APO_WeaponSpells[spellId] then
           updatedBoost = true
         else
-          table.insert(emptyBoost, entry)
+          keptBoosts[#keptBoosts + 1] = entry
         end
       end
 
       if updatedBoost then
-        stat.BoostsOnEquipMainHand = table.concat(emptyBoost, ";")
+        stat.BoostsOnEquipMainHand = table.concat(keptBoosts, ";")
       end
     end
   end
