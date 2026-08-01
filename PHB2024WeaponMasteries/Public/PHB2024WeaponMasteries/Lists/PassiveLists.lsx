@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="10"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="PHB2024 Weapon Masteries"/>
+                    <attribute id="Passives" type="LSString" value="APO_WM_Battleaxes;APO_WM_Clubs;APO_WM_Daggers;APO_WM_Darts;APO_WM_Flails;APO_WM_Glaives;APO_WM_Greataxes;APO_WM_Greatclubs;APO_WM_Greatswords;APO_WM_Halberds;APO_WM_Handaxes;APO_WM_HandCrossbows;APO_WM_HeavyCrossbows;APO_WM_Javelins;APO_WM_LightCrossbows;APO_WM_LightHammers;APO_WM_Longbows;APO_WM_Longswords;APO_WM_Maces;APO_WM_Mauls;APO_WM_Morningstars;APO_WM_Pikes;APO_WM_Quarterstaffs;APO_WM_Rapiers;APO_WM_Scimitars;APO_WM_Shortbows;APO_WM_Shortswords;APO_WM_Sickles;APO_WM_Spears;APO_WM_Tridents;APO_WM_Warhammers;APO_WM_WarPicks"/>
+                    <attribute id="UUID" type="guid" value="d4f1c93f-fb8a-41f7-bce5-4afbfb21576a"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="PHB2024 Weapon Masteries Melee Only"/>
+                    <attribute id="Passives" type="LSString" value="APO_WM_Battleaxes;APO_WM_Clubs;APO_WM_Daggers;APO_WM_Flails;APO_WM_Glaives;APO_WM_Greataxes;APO_WM_Greatclubs;APO_WM_Greatswords;APO_WM_Halberds;APO_WM_Handaxes;APO_WM_Javelins;APO_WM_LightHammers;APO_WM_Longswords;APO_WM_Maces;APO_WM_Mauls;APO_WM_Morningstars;APO_WM_Pikes;APO_WM_Quarterstaffs;APO_WM_Rapiers;APO_WM_Scimitars;APO_WM_Shortswords;APO_WM_Sickles;APO_WM_Spears;APO_WM_Tridents;APO_WM_Warhammers;APO_WM_WarPicks"/>
+                    <attribute id="UUID" type="guid" value="f8dd166d-9d41-4326-ba24-b4fcfa80ee29"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="PHB2024 Weapon Masteries Finesse or Light"/>
+                    <attribute id="Passives" type="LSString" value="APO_WM_Clubs;APO_WM_Daggers;APO_WM_Darts;APO_WM_Handaxes;APO_WM_HandCrossbows;APO_WM_LightHammers;APO_WM_Rapiers;APO_WM_Scimitars;APO_WM_Shortswords;APO_WM_Sickles"/>
+                    <attribute id="UUID" type="guid" value="10b330a5-3da9-4f75-a808-d6aa1ca4ce54"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,39 @@
+new entry "Interrupt_APO_WM_Graze"
+type "InterruptData"
+// Weapon Mastery: Graze
+data "DisplayName" "he894fcdag4308g4364g8a7dgdab4d11119da;1"
+// When you miss an attack, deal [1].
+data "Description" "h6c769d39gd8acg480fg9a1fgd2e3ce14afac;1"
+// TO DO: see if this works
+data "DescriptionParams" "DealDamage(APO_WM_AttackAbilityModifier(),MainMeleeWeaponDamageType)"
+data "Icon" "Action_PommelStrike"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "Self(context.Source,context.Observer) and (IsCriticalMiss() or IsMiss()) and IsMeleeWeaponAttack() and IsProficientWithEquippedWeapon() and not AnyEntityIsItem()"
+// TO DO: see if this works
+data "Properties" "DealDamage(APO_WM_AttackAbilityModifier(),MainMeleeWeaponDamageType)"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "not (HasStatus('SG_Polymorph_BeastShape') or Tagged('MINDFLAYER') or Tagged('SLAYER') or Tagged('MYRMIDON_AIR') or Tagged('MYRMIDON_EARTH') or Tagged('MYRMIDON_FIRE') or Tagged('MYRMIDON_WATER'));"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+
+new entry "Interrupt_APO_WM_Push"
+type "InterruptData"
+data "Icon" "Action_PushingAttack_Melee"
+// Weapon Mastery: Push
+data "DisplayName" "h244b3815g2ba6g4babg8499gbb18368d56fc;1"
+// You can push this creature up to [1] away from you.
+data "Description" "h42c0ea96g634eg4a3cgaf64gccc7367f1fdb;1"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "Self(context.Source,context.Observer) and (IsCriticalMiss() or IsMiss()) and IsMeleeWeaponAttack() and IsProficientWithEquippedWeapon() and not AnyEntityIsItem()"
+data "Properties" "TARGET:IF(TargetSizeEqualOrSmaller(Size.Large,context.HitDescription.ThrownObject)):ApplyStatus(APO_WM_PUSH,100,0)"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "not (HasStatus('SG_Polymorph_BeastShape') or Tagged('MINDFLAYER') or Tagged('SLAYER') or Tagged('MYRMIDON_AIR') or Tagged('MYRMIDON_EARTH') or Tagged('MYRMIDON_FIRE') or Tagged('MYRMIDON_WATER'));"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+
+new entry "Interrupt_APO_WM_Push_Ranged"
+type "InterruptData"
+using "Interrupt_APO_WM_Push"
+data "Icon" "Action_PushingAttack_Ranged"

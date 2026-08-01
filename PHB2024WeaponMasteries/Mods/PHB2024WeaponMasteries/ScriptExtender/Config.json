@@ -1,0 +1,7 @@
+{
+    "RequiredVersion": 30,
+    "ModTable": "PHB2024WeaponMasteries",
+    "FeatureFlags": [
+        "Lua"
+    ]
+}

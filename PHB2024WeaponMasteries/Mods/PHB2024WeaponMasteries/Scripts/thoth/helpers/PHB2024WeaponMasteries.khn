@@ -1,0 +1,27 @@
+-- Calculate the SaveDC for Topple Weapon Mastery
+function APO_WM_ToppleSaveDC(source)
+    source = source or context.Source
+
+    local abilityModifier = abilityModifier 
+
+    if Goon_AttackAbility(Ability.Strength).Result then
+        abilityModifier = GetModifier(source.Strength)
+    elseif Goon_AttackAbility(Ability.Dexterity).Result then
+        abilityModifier = GetModifier(source.Dexterity)
+    elseif Goon_AttackAbility(Ability.Constitution).Result then
+        abilityModifier = GetModifier(source.Constitution)
+    elseif Goon_AttackAbility(Ability.Intelligence).Result then
+        abilityModifier = GetModifier(source.Intelligence)
+    elseif Goon_AttackAbility(Ability.Wisdom).Result then
+        abilityModifier = GetModifier(source.Wisdom)
+    elseif Goon_AttackAbility(Ability.Charisma).Result then
+        abilityModifier = GetModifier(source.Charisma)
+    end
+
+    return 8 + source.ProficiencyBonus + abilityModifier
+end
+
+-- Hopefully this returns the modifier value for the weapon attack roll
+function APO_WM_AttackAbilityModifier()
+    return GetModifier(context.Source.HitDescription.AttackAbility)
+end

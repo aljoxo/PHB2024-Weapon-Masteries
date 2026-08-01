@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<!-- Misc -->
+	<content contentuid="h374b8eb7g2365g4ad3gbfdfgba3068cf3548" version="1">You can make this extra attack only once per turn.</content>
+	<content contentuid="h5d3fc8c5g3762g4f9fg9928gca2386a356f4" version="1">Weapon Masteries</content>
+	<content contentuid="h47f069fdgf774g4fa0ga320g4b335569369a" version="1">Your training allows you to use the mastery properties of weapons you choose to specialize in.</content>
+
+	<!-- Cleave -->
+	<content contentuid="h21c23a7fg3e11g4296ga794gf1d94944458e" version="1">Attack: Cleave</content>
+	<content contentuid="ha87ac3a2g7389g480bgbf55gd52f2106988d" version="1">Make a melee &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt; against a second creature within your reach.</content>
+	<content contentuid="hf149c56bg994dg4472g8e43g1d8cc6e654d2" version="1">Weapon Mastery: Cleave</content>
+	<content contentuid="h3753a035gec96g4fa9g931cg15cf303ce316" version="1">When you hit a creature with a &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt; using this weapon, you can make a melee &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt; with the weapon against a second creature within [1].</content>
+	<content contentuid="h7017579egc5a0g45a4g8059g424fbaa256fe" version="1">Weapon Mastery: Greataxes</content>
+	<content contentuid="hdcadd0bdg3cf7g48edgb631g6d08992b61c8" version="1">When you hit a creature with a &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt; using a Greataxe, you can make a melee &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt; with the weapon against a second creature within [1].</content>
+	<content contentuid="h953761beg586ag4ebagb0e9gc4291e3247d8" version="1">Weapon Mastery: Halberds</content>
+	<content contentuid="h0c599ad9gcdc2g4c2fg9c00g16e82e025fda" version="1">When you hit a creature with a &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt; using a Halberd, you can make a melee &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt; with the weapon against a second creature within [1].</content>
+
+	<!-- Graze -->
+	<content contentuid="he894fcdag4308g4364g8a7dgdab4d11119da" version="1">Weapon Mastery: Graze</content>
+	<content contentuid="hc788658agbbc2g4cd4gbb91g85bcc8520a00" version="1">When you miss an attack using this weapon, deal [1].</content>
+	<content contentuid="h87ba90e2ga3fbg4675g9f21g5f26cdde842c" version="1">Weapon Mastery: Glaives</content>
+	<content contentuid="h7c3bf2a0gc508g41adg8799g62fff4e9f8aa" version="1">When you miss an attack using a Glaive, deal [1].</content>
+	<content contentuid="h6226083cgc8bbg470dgbb87g6580694df760" version="1">Weapon Mastery: Greatswords</content>
+	<content contentuid="h9510da94g1339g4d25g8600g16d12edd937d" version="1">When you miss an attack using a Greatsword, deal [1].</content>
+	<content contentuid="h6c769d39gd8acg480fg9a1fgd2e3ce14afac" version="1">When you miss an attack, deal [1].</content>
+	
+	<!-- Nick -->
+	<content contentuid="h780b731eg5f86g4cb6g9327gb5094f135f8d" version="1">Weapon Mastery: Nick</content>
+	<content contentuid="hc81365dag6fdag4e4cg8908gd1297728ecf8" version="1">When you make an &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt; with this weapon, you can make an additional off-hand attack with a weapon that has the &lt;LSTag Tooltip="Light"&gt;Light&lt;/LSTag&gt; property.</content>
+	<content contentuid="hf680a976g3cfbg4f57gb7e7gaf2f6d107038" version="1">Off-Hand Attack: Nick</content>
+	<content contentuid="h36b7da29g8ff8g447bgbeb9gad02b76c0ff1" version="1">Weapon Mastery: Daggers</content>
+	<content contentuid="hfff29f45gc9c1g49bcg9088gecc2c64f13f2" version="1">When you make an &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt; with a Dagger, you can make an additional off-hand attack with a weapon that has the &lt;LSTag Tooltip="Light"&gt;Light&lt;/LSTag&gt; property.</content>
+	<content contentuid="h8841ead6gae81g455egad36g990384c098f2" version="1">Weapon Mastery: Light Hammers</content>
+	<content contentuid="haf57b8abgf54bg45dfg92b7g3126cda71d04" version="1">When you make an &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt; with a Light Hammer, you can make an additional off-hand attack with a weapon that has the &lt;LSTag Tooltip="Light"&gt;Light&lt;/LSTag&gt; property.</content>
+	<content contentuid="h61d58895g5c68g49d0ga603g55e9afb3c43d" version="1">Weapon Mastery: Sickles</content>
+	<content contentuid="h5e906d29g077eg440fg8badg01398aa0bd89" version="1">When you make an &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt; with a Sickle, you can make an additional off-hand attack with a weapon that has the &lt;LSTag Tooltip="Light"&gt;Light&lt;/LSTag&gt; property.</content>
+	<content contentuid="h63f83fb0ga49ag4915ga8fbg3741432fbd08" version="1">Weapon Mastery: Scimitars</content>
+	<content contentuid="hd39fcbbbg3d57g4f1cga805g1bbadca976b7" version="1">When you make an &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt; with a Scimitar, you can make an additional off-hand attack with a weapon that has the &lt;LSTag Tooltip="Light"&gt;Light&lt;/LSTag&gt; property.</content>
+
+	<!-- Push -->
+	<content contentuid="h244b3815g2ba6g4babg8499gbb18368d56fc" version="1">Weapon Mastery: Push</content>
+	<content contentuid="hb0761d4cgda95g414eg957fg86e12adfa008" version="1">When you hit a creature with this weapon, you can push the creature up to [1] away from you.</content>
+	<content contentuid="hc187904dgee74g4bc2gb7eag2795f4e2d0b7" version="1">Weapon Mastery: Greatclubs</content>
+	<content contentuid="h9e71889age9c1g4ef5g8527g8a281d0f25fc" version="1">When you hit a creature with a Greatclub, you can push the creature up to [1] away from you.</content>
+	<content contentuid="h24357ba8g7b89g4975g8fc3g8cb7ede25bb6" version="1">Weapon Mastery: Pikes</content>
+	<content contentuid="h57938e3ag8e74g42a6g884bg93eff1868bd5" version="1">When you hit a creature with a Pike, you can push the creature up to [1] away from you.</content>
+	<content contentuid="h5f8d98ddg6c6fg4bb2g9f2bgea30156835e7" version="1">Weapon Mastery: Warhammer</content>
+	<content contentuid="h2d398536g6e6fg44a3g9a69gc0223ae6203b" version="1">When you hit a creature with a Warhammer, you can push the creature up to [1] away from you.</content>
+	<content contentuid="hc29eeac5g7214g4e6ega413g0222bf697ed8" version="1">Weapon Mastery: Heavy Crossbow</content>
+	<content contentuid="h4974bfc0g61f7g4b2cgbbbeg5566fc1ec446" version="1">When you hit a creature with a Heavy Crossbow, you can push the creature up to [1] away from you.</content>
+	<content contentuid="h42c0ea96g634eg4a3cgaf64gccc7367f1fdb" version="1">You can push this creature up to [1] away from you.</content>
+
+	<!-- Sap -->
+	<content contentuid="hdc33d99fga5e3g4ba6g8959gdae24bd01264" version="1">Weapon Mastery: Sap</content>
+	<content contentuid="h38795a92g4518g4052gb457g4334f06ddc1d" version="1">When you hit a creature with this weapon, that creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on its next &lt;LSTag Tooltip="Attack Roll"&gt;Attack Roll&lt;/LSTag&gt; before the start of your next turn.</content>
+	<content contentuid="h26cbfca6g9380g4293g98fcg4d4ef1db7099" version="1">Weapon Mastery: Maces</content>
+	<content contentuid="hd668a002g4f6fg4e2dgb987g3bd6043ea1bc" version="1">When you hit a creature with a Mace, that creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on its next &lt;LSTag Tooltip="Attack Roll"&gt;Attack Roll&lt;/LSTag&gt; before the start of your next turn.</content>
+	<content contentuid="h8dea634agaa24g404cga9a8g0c1f18012bf8" version="1">Weapon Mastery: Spears</content>
+	<content contentuid="h0680d9d3g6bf4g4a25gb217g8019a4567b77" version="1">When you hit a creature with a Spear, that creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on its next &lt;LSTag Tooltip="Attack Roll"&gt;Attack Roll&lt;/LSTag&gt; before the start of your next turn.</content>
+	<content contentuid="hc8546594gc79dg4303g958bg3fead843b8ae" version="1">Weapon Mastery: Flails</content>
+	<content contentuid="hfe156d20g6848g443bg96ebgee9e7c9131c2" version="1">When you hit a creature with a Flail, that creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on its next &lt;LSTag Tooltip="Attack Roll"&gt;Attack Roll&lt;/LSTag&gt; before the start of your next turn.</content>
+	<content contentuid="hf93d2428g2e51g4934g8e5bged676b9455a6" version="1">Weapon Mastery: Longswords</content>
+	<content contentuid="h268e0ac9g12bag42d0gb932g3d6cab2d34e7" version="1">When you hit a creature with a Longsword, that creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on its next &lt;LSTag Tooltip="Attack Roll"&gt;Attack Roll&lt;/LSTag&gt; before the start of your next turn.</content>
+	<content contentuid="h2aa55c95g3934g4a82g8f53gb21712c8d9da" version="1">Weapon Mastery: Morningstars</content>
+	<content contentuid="hb9f2dbe3ga430g48d0gb69cga381215d0256" version="1">When you hit a creature with a Morningstar, that creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on its next &lt;LSTag Tooltip="Attack Roll"&gt;Attack Roll&lt;/LSTag&gt; before the start of your next turn.</content>
+	<content contentuid="h033f641fg5904g4292ga69bge2fab858df44" version="1">Weapon Mastery: War Picks</content>
+	<content contentuid="h436963cdg8c79g41a5g8317gedd16a318c3c" version="1">When you hit a creature with a War Pick, that creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on its next &lt;LSTag Tooltip="Attack Roll"&gt;Attack Roll&lt;/LSTag&gt; before the start of your next turn.</content>
+	<content contentuid="hf517ee2cg84d2g4b11g94f3g56b4efc0f883" version="1">Sapped</content>
+	<content contentuid="ha488fe6cg28bag48afgb372g8c7264e65dbc" version="1">Has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on its next &lt;LSTag Tooltip="Attack Roll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+
+	<!-- Slow -->
+	<content contentuid="h4da0ed8bga702g458cgb844g90c841dfd594" version="1">Weapon Mastery: Slow</content>
+	<content contentuid="ha097c28egf67bg44f9gab9cg057379f21639" version="1">When you hit a creature with this weapon, you can reduce its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1] until the start of your next turn.</content>
+	<content contentuid="h7388351cg0143g4d4bgb73bg6fabc20f437d" version="1">Weapon Mastery: Clubs</content>
+	<content contentuid="haa0173c9g4452g4d49g9080g637bc894badd" version="1">When you hit a creature with a Club, you can reduce its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1] until the start of your next turn.</content>
+	<content contentuid="hd3f9621fgdf89g4ec8ga773gd910933836be" version="1">Weapon Mastery: Javelins</content>
+	<content contentuid="h5b77f9fcg8867g4db7gb00cgfddeffe91fa9" version="1">When you hit a creature with a Javelin, you can reduce its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1] until the start of your next turn.</content>
+	<content contentuid="hc90c4834gb6e5g4827g89bfgfd07aa11b7f0" version="1">Weapon Mastery: Light Crossbows</content>
+	<content contentuid="hfa29b2bfgbfadg41a2gb30eg31b34e381717" version="1">When you hit a creature with a Light Crossbow, you can reduce its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1] until the start of your next turn.</content>
+	<content contentuid="hfe4bc6f2g9838g436fgb4fbg109c343ca45d" version="1">Weapon Mastery: Longbows</content>
+	<content contentuid="h675fa27bg7d73g43e8g9232gf2bfbf1cda6c" version="1">When you hit a creature with a Longbow, you can reduce its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1] until the start of your next turn.</content>
+	<content contentuid="he825f933g11c6g4acfgb28dg1eb5429a42fc" version="1">Slowed</content>
+	<content contentuid="h58bc00d1g34e9g4158g86f0gd866da6d0425" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; reduced by [1].</content>
+	<content contentuid="h956ac2b3gfd9dg4032gb946gf1e245c69dc5" version="1">If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed [1].</content>
+
+	<!-- Topple -->
+	<content contentuid="h9cccd2c7g3043g44f7ga774gff06b4362442" version="1">Weapon Mastery: Topple</content>
+	<content contentuid="h431be76fgd3b4g4c7fgb103g0334841a920b" version="1">When you hit a creature with this weapon, you can force the creature to make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;On a failed save, the creature is knocked &lt;LSTag Tooltip="Prone"&gt;Prone&lt;/LSTag&gt; until the start of your next turn.</content>
+	<content contentuid="h0f0a9fbfg2283g4f1egbc39ga2af4cecba6b" version="1">Weapon Mastery: Quarterstaffs</content>
+	<content contentuid="haf7a27cfg87cdg43ebga5f8gdb358c461082" version="1">When you hit a creature with a Quarterstaff, you can force the creature to make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;On a failed save, the creature is knocked &lt;LSTag Tooltip="Prone"&gt;Prone&lt;/LSTag&gt; until the start of your next turn.</content>
+	<content contentuid="h825987dfg74ffg4903g93b3g45da4ee33cf1" version="1">Weapon Mastery: Battleaxes</content>
+	<content contentuid="h6368f35cge94dg4692g8dc3g1a24038a66d2" version="1">When you hit a creature with a Battleaxe, you can force the creature to make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;On a failed save, the creature is knocked &lt;LSTag Tooltip="Prone"&gt;Prone&lt;/LSTag&gt; until the start of your next turn.</content>
+	<content contentuid="h60379d62ga141g470dg9effg1afd48a31b9a" version="1">Weapon Mastery: Mauls</content>
+	<content contentuid="hb80066c8gce0eg4343g8923gadd4f9eba448" version="1">When you hit a creature with a Maul, you can force the creature to make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;On a failed save, the creature is knocked &lt;LSTag Tooltip="Prone"&gt;Prone&lt;/LSTag&gt; until the start of your next turn.</content>
+	<content contentuid="hae14594agedf8g47c7ga46cg98972a111330" version="1">Weapon Mastery: Tridents</content>
+	<content contentuid="he3a6629cg7142g4340g829cge6fb57858260" version="1">When you hit a creature with a Trident, you can force the creature to make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;On a failed save, the creature is knocked &lt;LSTag Tooltip="Prone"&gt;Prone&lt;/LSTag&gt; until the start of your next turn.</content>
+	
+	<!-- Vex -->
+	<content contentuid="h8304106bg9cd9g4d86gaf28g330a8834d333" version="1">Weapon Mastery: Vex</content>
+	<content contentuid="h2138b2ffgaa79g45f4gae30gb7c11ed75b37" version="1">When you hit a creature with this weapon, you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="Attack Roll"&gt;Attack Roll&lt;/LSTag&gt; against that creature before the end of your next turn.</content>
+	<content contentuid="h6b9babcdgd5f1g4dddga840gf010253c63b3" version="1">Vexed</content>
+	<content contentuid="hb5ec7967gb725g4271gaf04gef98ddaf5a9d" version="1">Attacked has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on its next &lt;LSTag Tooltip="Attack Roll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="h047ceb79gcb72g4241g81adgcf9b2bea5d89" version="1">Weapon Mastery: Handaxes</content>
+	<content contentuid="hf303f531gfa44g4d87g9395ga5d87f6ebb6f" version="1">When you hit a creature with a Handaxe, you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="Attack Roll"&gt;Attack Roll&lt;/LSTag&gt; against that creature before the end of your next turn.</content>
+	<content contentuid="h38b5487cg02a3g4356g8722g025dc5cca024" version="1">Weapon Mastery: Darts</content>
+	<content contentuid="h27979716g7bf4g49acg9a3eg47624d16b035" version="1">When you hit a creature with a Dart, you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="Attack Roll"&gt;Attack Roll&lt;/LSTag&gt; against that creature before the end of your next turn.</content>
+	<content contentuid="hac1f4de1gff27g4773g8468g826cb52fdddb" version="1">Weapon Mastery: Shortbows</content>
+	<content contentuid="haf0fa2f2gb1ffg46f1ga323ge94229041492" version="1">When you hit a creature with a Shortbow, you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="Attack Roll"&gt;Attack Roll&lt;/LSTag&gt; against that creature before the end of your next turn.</content>
+	<content contentuid="h541a641fgc675g4f01ga7f5g2e32eb35b196" version="1">Weapon Mastery: Rapiers</content>
+	<content contentuid="hbb1af804gad0cg4afdg840dge958eddcf986" version="1">When you hit a creature with a Rapier, you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="Attack Roll"&gt;Attack Roll&lt;/LSTag&gt; against that creature before the end of your next turn.</content>
+	<content contentuid="h498303e0gc8d0g44cegb8a7gb213901dcbda" version="1">Weapon Mastery: Shortswords</content>
+	<content contentuid="hed970b52g323bg45edga601g63f32df5b47d" version="1">When you hit a creature with a Shortsword, you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="Attack Roll"&gt;Attack Roll&lt;/LSTag&gt; against that creature before the end of your next turn.</content>
+	<content contentuid="h84d546b1g3feeg401dg85c5gcac8084a0481" version="1">Weapon Mastery: Hand Crossbows</content>
+	<content contentuid="h0ea00660g83c9g41b3gbd60g5af505317c75" version="1">When you hit a creature with a Hand Crossbow, you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="Attack Roll"&gt;Attack Roll&lt;/LSTag&gt; against that creature before the end of your next turn.</content>
+
+</contentList>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="10"/>
+    <region id="ProgressionDescriptions">
+        <node id="root">
+            <children>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h47f069fdgf774g4fa0ga320g4b335569369a" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h5d3fc8c5g3762g4f9fg9928gca2386a356f4" version="1"/>
+                    <attribute id="SelectorId" type="FixedString" value="APO_WeaponMasteries"/>
+                    <attribute id="UUID" type="guid" value="0e22d1bb-bb38-4945-aba3-1ac04e61d48c"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

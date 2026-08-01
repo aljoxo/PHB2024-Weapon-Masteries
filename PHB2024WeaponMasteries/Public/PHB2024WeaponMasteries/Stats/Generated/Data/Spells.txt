@@ -1,0 +1,29 @@
+// Cleave Attack
+new entry "Target_APO_WM_CleaveAttack"
+type "SpellData"
+using "Target_MainHandAttack"
+data "SpellType" "Target"
+data "Cooldown" "OncePerTurn"
+// data "SpellProperties" "GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand)"
+// TO DO: see if this works
+data "SpellProperties" "GROUND:DealDamage(MainMeleeWeapon-max(0,Goon_AttackAbilityModifier()), MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand)"
+data "SpellRoll" "Attack(AttackType.MeleeWeaponAttack)"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon)-max(0,Goon_AttackAbilityModifier()), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand)"
+data "TargetConditions" "not Self() and not Dead() and not HasStatus('APO_WM_CLEAVE_BLOCK')"
+// Attack: Cleave
+data "DisplayName" "h21c23a7fg3e11g4296ga794gf1d94944458e;1"
+// Make a melee <LSTag Tooltip="Attack Roll">attack roll</LSTag> against a second creature within your reach.
+data "Description" "ha87ac3a2g7389g480bgbf55gd52f2106988d;1"
+data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType)"
+data "SpellFlags" "IsAttack;IsMelee;IsHarmful;Temporary"
+
+// Nick Attack
+new entry "Target_APO_WM_NickAttack"
+type "SpellData"
+using "Target_OffhandAttack"
+data "SpellType" "Target"
+data "Cooldown" "OncePerTurn"
+// Off-Hand Attack: Nick
+data "DisplayName" "hf680a976g3cfbg4f57gb7e7gaf2f6d107038;1"
+data "RequirementConditions" "(HasWeaponProperty((WeaponProperties.Light), GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand)))"
+data "SpellFlags" "IsMelee;IsHarmful;Temporary"

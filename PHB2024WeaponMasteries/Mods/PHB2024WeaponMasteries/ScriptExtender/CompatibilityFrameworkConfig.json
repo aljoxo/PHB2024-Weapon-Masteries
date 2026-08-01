@@ -1,0 +1,230 @@
+{
+    "FileVersion": 1,
+    "Progressions": [
+      { 
+        "UUID": "a2198ee9-ea4c-468e-b6b4-22b32d37806e",
+          "Selectors": [
+          {
+            "modGuid": "cbe21983-490d-4dd3-afc6-236c4e0a2bcd",
+            "Action": "Insert",
+            "Function": "SelectPassives",
+            "Params": {
+              "Guid": "f8dd166d-9d41-4326-ba24-b4fcfa80ee29",
+              "Amount": "2",
+              "SelectorId": "WeaponMasteries"
+            }
+          }
+        ]
+      },
+      { 
+        "UUID": "2dc1015e-6fd9-48aa-923e-eecaf72a83f1",
+          "Selectors": [
+          {
+            "modGuid": "cbe21983-490d-4dd3-afc6-236c4e0a2bcd",
+            "Action": "Insert",
+            "Function": "SelectPassives",
+            "Params": {
+              "Guid": "f8dd166d-9d41-4326-ba24-b4fcfa80ee29",
+              "Amount": "2",
+              "SelectorId": "WeaponMasteries"
+            }
+          }
+        ]
+      },
+      { 
+        "UUID": "942265f9-bb74-4f9b-82e4-0c8c8036ac7f",
+          "Selectors": [
+          {
+            "modGuid": "cbe21983-490d-4dd3-afc6-236c4e0a2bcd",
+            "Action": "Insert",
+            "Function": "SelectPassives",
+            "Params": {
+              "Guid": "f8dd166d-9d41-4326-ba24-b4fcfa80ee29",
+              "Amount": "1",
+              "SelectorId": "WeaponMasteries"
+            }
+          }
+        ]
+      },
+      { 
+        "UUID": "38f50ca6-9511-4b32-81e6-bb9a8a941a3d",
+          "Selectors": [
+          {
+            "modGuid": "cbe21983-490d-4dd3-afc6-236c4e0a2bcd",
+            "Action": "Insert",
+            "Function": "SelectPassives",
+            "Params": {
+              "Guid": "f8dd166d-9d41-4326-ba24-b4fcfa80ee29",
+              "Amount": "1",
+              "SelectorId": "WeaponMasteries"
+            }
+          }
+        ]
+      },
+      { 
+        "UUID": "dfb2fd83-9849-4c2d-be84-adedb81a867a",
+          "Selectors": [
+          {
+            "modGuid": "cbe21983-490d-4dd3-afc6-236c4e0a2bcd",
+            "Action": "Insert",
+            "Function": "SelectPassives",
+            "Params": {
+              "Guid": "d4f1c93f-fb8a-41f7-bce5-4afbfb21576a",
+              "Amount": "3",
+              "SelectorId": "WeaponMasteries"
+            }
+          }
+        ]
+      },
+      { 
+        "UUID": "b29977d4-b81a-4794-9f4f-badd7cc23f6b",
+          "Selectors": [
+          {
+            "modGuid": "cbe21983-490d-4dd3-afc6-236c4e0a2bcd",
+            "Action": "Insert",
+            "Function": "SelectPassives",
+            "Params": {
+              "Guid": "d4f1c93f-fb8a-41f7-bce5-4afbfb21576a",
+              "Amount": "3",
+              "SelectorId": "WeaponMasteries"
+            }
+          }
+        ]
+      },
+      { 
+        "UUID": "05f6a6ef-a574-4317-b9e4-e710975e07b4",
+          "Selectors": [
+          {
+            "modGuid": "cbe21983-490d-4dd3-afc6-236c4e0a2bcd",
+            "Action": "Insert",
+            "Function": "SelectPassives",
+            "Params": {
+              "Guid": "d4f1c93f-fb8a-41f7-bce5-4afbfb21576a",
+              "Amount": "1",
+              "SelectorId": "WeaponMasteries"
+            }
+          }
+        ]
+      },
+      { 
+        "UUID": "7535f41a-d360-4adc-8166-9d2e29660b1d",
+          "Selectors": [
+          {
+            "modGuid": "cbe21983-490d-4dd3-afc6-236c4e0a2bcd",
+            "Action": "Insert",
+            "Function": "SelectPassives",
+            "Params": {
+              "Guid": "d4f1c93f-fb8a-41f7-bce5-4afbfb21576a",
+              "Amount": "1",
+              "SelectorId": "WeaponMasteries"
+            }
+          }
+        ]
+      },
+      { 
+        "UUID": "7c469977-c4fd-4146-86e7-ebbad6df6501",
+          "Selectors": [
+          {
+            "modGuid": "cbe21983-490d-4dd3-afc6-236c4e0a2bcd",
+            "Action": "Insert",
+            "Function": "SelectPassives",
+            "Params": {
+              "Guid": "d4f1c93f-fb8a-41f7-bce5-4afbfb21576a",
+              "Amount": "1",
+              "SelectorId": "WeaponMasteries"
+            }
+          }
+        ]
+      },
+      { 
+        "UUID": "b60618d1-c262-42b5-9fdd-2c0f7aa5e5af",
+          "Selectors": [
+          {
+            "modGuid": "cbe21983-490d-4dd3-afc6-236c4e0a2bcd",
+            "Action": "Insert",
+            "Function": "SelectPassives",
+            "Params": {
+              "Guid": "d4f1c93f-fb8a-41f7-bce5-4afbfb21576a",
+              "Amount": "2",
+              "SelectorId": "WeaponMasteries"
+            }
+          }
+        ]
+      },
+      { 
+        "UUID": "1f5396ad-65e3-4ed5-a339-d76b11af96ea",
+          "Selectors": [
+          {
+            "modGuid": "cbe21983-490d-4dd3-afc6-236c4e0a2bcd",
+            "Action": "Insert",
+            "Function": "SelectPassives",
+            "Params": {
+              "Guid": "d4f1c93f-fb8a-41f7-bce5-4afbfb21576a",
+              "Amount": "2",
+              "SelectorId": "WeaponMasteries"
+            }
+          }
+        ]
+      },
+      { 
+        "UUID": "ad1084b1-b99f-6720-cfdd-cf82ad44345b",
+          "Selectors": [
+          {
+            "modGuid": "cbe21983-490d-4dd3-afc6-236c4e0a2bcd",
+            "Action": "Insert",
+            "Function": "SelectPassives",
+            "Params": {
+              "Guid": "d4f1c93f-fb8a-41f7-bce5-4afbfb21576a",
+              "Amount": "2",
+              "SelectorId": "WeaponMasteries"
+            }
+          }
+        ]
+      },
+      { 
+        "UUID": "107b5f98-bf4f-4e90-85a1-5be602055b19",
+          "Selectors": [
+          {
+            "modGuid": "cbe21983-490d-4dd3-afc6-236c4e0a2bcd",
+            "Action": "Insert",
+            "Function": "SelectPassives",
+            "Params": {
+              "Guid": "d4f1c93f-fb8a-41f7-bce5-4afbfb21576a",
+              "Amount": "2",
+              "SelectorId": "WeaponMasteries"
+            }
+          }
+        ]
+      },
+      { 
+        "UUID": "16f00e7f-12f6-4cff-b610-4ee738b02d62",
+          "Selectors": [
+          {
+            "modGuid": "cbe21983-490d-4dd3-afc6-236c4e0a2bcd",
+            "Action": "Insert",
+            "Function": "SelectPassives",
+            "Params": {
+              "Guid": "10b330a5-3da9-4f75-a808-d6aa1ca4ce54",
+              "Amount": "2",
+              "SelectorId": "WeaponMasteries"
+            }
+          }
+        ]
+      },
+      { 
+        "UUID": "cd3d8b16-37ce-4107-a2e3-e729751c2b1c",
+          "Selectors": [
+          {
+            "modGuid": "cbe21983-490d-4dd3-afc6-236c4e0a2bcd",
+            "Action": "Insert",
+            "Function": "SelectPassives",
+            "Params": {
+              "Guid": "10b330a5-3da9-4f75-a808-d6aa1ca4ce54",
+              "Amount": "2",
+              "SelectorId": "WeaponMasteries"
+            }
+          }
+        ]
+      }
+    ]
+  }
