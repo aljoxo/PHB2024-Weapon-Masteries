@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="Feats">
+        <node id="root">
+            <children>
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="APO_FEAT_WeaponMaster"/>
+                    <attribute id="PassivesAdded" type="LSString" value="APO_FEAT_WeaponMaster" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(d4f1c93f-fb8a-41f7-bce5-4afbfb21576a,1,APO_WeaponMasteries)"/>
+                    <attribute id="UUID" type="guid" value="548159db-e7be-4692-8ae7-83bf74e29be0"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

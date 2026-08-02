@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="FeatDescriptions">
+        <node id="root">
+            <children>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h8a1dbcf9g9885g4480g8f9cgd5d5300b3599" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3303e3fbg2cb7g440bga4dbgfdbb5721aa66" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="APO_WeaponMaster"/>
+                    <attribute id="FeatId" type="guid" value="548159db-e7be-4692-8ae7-83bf74e29be0"/>
+                    <attribute id="UUID" type="guid" value="1080c30b-5d10-491e-9493-8647c17caf82"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

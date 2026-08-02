@@ -4,10 +4,13 @@
 	<content contentuid="h374b8eb7g2365g4ad3gbfdfgba3068cf3548" version="1">You can make this extra attack only once per turn.</content>
 	<content contentuid="h5d3fc8c5g3762g4f9fg9928gca2386a356f4" version="1">Weapon Masteries</content>
 	<content contentuid="h47f069fdgf774g4fa0ga320g4b335569369a" version="1">Your training allows you to use the mastery properties of weapons you choose to specialize in.</content>
+	<content contentuid="h3303e3fbg2cb7g440bga4dbgfdbb5721aa66" version="1">Weapon Master</content>
+	<content contentuid="h8a1dbcf9g9885g4480g8f9cgd5d5300b3599" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt; Your training with weapons allows you to use the mastery property of one kind of Simple of Martial weapon of your choice. You must have &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficiency&lt;/LSTag&gt; with the chosen weapon type in order to use its mastery property.</content>
+	<content contentuid="h6e3c293ag12f4g4df1gba9ag237cc2015d64" version="1">Your training with weapons allows you to use the mastery property of one kind of Simple of Martial weapon of your choice. You must have &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficiency&lt;/LSTag&gt; with the chosen weapon type in order to use its mastery property.</content>
 
 	<!-- Cleave -->
 	<content contentuid="h21c23a7fg3e11g4296ga794gf1d94944458e" version="1">Attack: Cleave</content>
-	<content contentuid="ha87ac3a2g7389g480bgbf55gd52f2106988d" version="1">Make a melee &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt; against a second creature within your reach.</content>
+	<content contentuid="ha87ac3a2g7389g480bgbf55gd52f2106988d" version="1">Make a melee &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt; against a second creature within [1].</content>
 	<content contentuid="hf149c56bg994dg4472g8e43g1d8cc6e654d2" version="1">Weapon Mastery: Cleave</content>
 	<content contentuid="h3753a035gec96g4fa9g931cg15cf303ce316" version="1">When you hit a creature with a &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt; using this weapon, you can make a melee &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt; with the weapon against a second creature within [1].</content>
 	<content contentuid="h7017579egc5a0g45a4g8059g424fbaa256fe" version="1">Weapon Mastery: Greataxes</content>
@@ -17,12 +20,12 @@
 
 	<!-- Graze -->
 	<content contentuid="he894fcdag4308g4364g8a7dgdab4d11119da" version="1">Weapon Mastery: Graze</content>
-	<content contentuid="hc788658agbbc2g4cd4gbb91g85bcc8520a00" version="1">When you miss an attack using this weapon, deal [1].</content>
+	<content contentuid="hc788658agbbc2g4cd4gbb91g85bcc8520a00" version="1">When you miss an attack using this weapon, deal damage equal to the &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; used to make the &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt;.</content>
 	<content contentuid="h87ba90e2ga3fbg4675g9f21g5f26cdde842c" version="1">Weapon Mastery: Glaives</content>
-	<content contentuid="h7c3bf2a0gc508g41adg8799g62fff4e9f8aa" version="1">When you miss an attack using a Glaive, deal [1].</content>
+	<content contentuid="h7c3bf2a0gc508g41adg8799g62fff4e9f8aa" version="1">When you miss an attack using a Glaive, deal damage equal to the &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; used to make the &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt;.</content>
 	<content contentuid="h6226083cgc8bbg470dgbb87g6580694df760" version="1">Weapon Mastery: Greatswords</content>
-	<content contentuid="h9510da94g1339g4d25g8600g16d12edd937d" version="1">When you miss an attack using a Greatsword, deal [1].</content>
-	<content contentuid="h6c769d39gd8acg480fg9a1fgd2e3ce14afac" version="1">When you miss an attack, deal [1].</content>
+	<content contentuid="h9510da94g1339g4d25g8600g16d12edd937d" version="1">When you miss an attack using a Greatsword, deal damage equal to the &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; used to make the &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt;.</content>
+	<content contentuid="h6c769d39gd8acg480fg9a1fgd2e3ce14afac" version="1">When you miss an attack, deal damage equal to the &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; used to make the &lt;LSTag Tooltip="Attack Roll"&gt;attack&lt;/LSTag&gt;.</content>
 	
 	<!-- Nick -->
 	<content contentuid="h780b731eg5f86g4cb6g9327gb5094f135f8d" version="1">Weapon Mastery: Nick</content>
@@ -86,7 +89,7 @@
 	<!-- Topple -->
 	<content contentuid="h9cccd2c7g3043g44f7ga774gff06b4362442" version="1">Weapon Mastery: Topple</content>
 	<content contentuid="h431be76fgd3b4g4c7fgb103g0334841a920b" version="1">When you hit a creature with this weapon, you can force the creature to make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;On a failed save, the creature is knocked &lt;LSTag Tooltip="Prone"&gt;Prone&lt;/LSTag&gt; until the start of your next turn.</content>
-	<content contentuid="h0f0a9fbfg2283g4f1egbc39ga2af4cecba6b" version="1">Weapon Mastery: Quarterstaffs</content>
+	<content contentuid="h0f0a9fbfg2283g4f1egbc39ga2af4cecba6b" version="1">Weapon Mastery: Quarterstaves</content>
 	<content contentuid="haf7a27cfg87cdg43ebga5f8gdb358c461082" version="1">When you hit a creature with a Quarterstaff, you can force the creature to make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;On a failed save, the creature is knocked &lt;LSTag Tooltip="Prone"&gt;Prone&lt;/LSTag&gt; until the start of your next turn.</content>
 	<content contentuid="h825987dfg74ffg4903g93b3g45da4ee33cf1" version="1">Weapon Mastery: Battleaxes</content>
 	<content contentuid="h6368f35cge94dg4692g8dc3g1a24038a66d2" version="1">When you hit a creature with a Battleaxe, you can force the creature to make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;On a failed save, the creature is knocked &lt;LSTag Tooltip="Prone"&gt;Prone&lt;/LSTag&gt; until the start of your next turn.</content>
