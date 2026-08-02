@@ -4,17 +4,14 @@ new entry "Interrupt_APO_WM_Graze"
 type "InterruptData"
 // Weapon Mastery: Graze
 data "DisplayName" "he894fcdag4308g4364g8a7dgdab4d11119da;1"
-// When you miss an attack, deal [1].
+// When you miss an attack, deal damage equal to the <LSTag Tooltip="AbilityModifier">Modifier</LSTag> used to make the <LSTag Tooltip="Attack Roll">attack</LSTag>.
 data "Description" "h6c769d39gd8acg480fg9a1fgd2e3ce14afac;1"
-// TO DO: see if this works
-data "DescriptionParams" "DealDamage(APO_WM_AttackAbilityModifier(),MainMeleeWeaponDamageType)"
-data "Icon" "Action_PommelStrike"
+data "Icon" "Action_Mag_GiantBlade"
 data "InterruptContext" "OnCastHit"
 data "InterruptContextScope" "Self"
 data "Container" "YesNoDecision"
 data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('Greatswords|Glaives', GetAttackWeapon())"
-// TO DO: see if this works
-data "Properties" "DealDamage(APO_WM_AttackAbilityModifier(),MainMeleeWeaponDamageType)"
+data "Properties" "DealDamage(max(1,Goon_AttackAbilityModifier()), MainMeleeWeaponDamageType)"
 data "InterruptDefaultValue" "Ask;Enabled"
 data "EnableCondition" "Goon_InterruptEnableConditions()"
 data "EnableContext" "OnStatusApplied;OnStatusRemoved"

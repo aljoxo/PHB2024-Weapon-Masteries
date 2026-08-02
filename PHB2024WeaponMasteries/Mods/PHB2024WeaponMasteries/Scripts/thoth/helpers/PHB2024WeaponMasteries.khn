@@ -20,8 +20,3 @@ function APO_WM_ToppleSaveDC(source)
 
     return 8 + source.ProficiencyBonus + abilityModifier
 end
-
--- Hopefully this returns the modifier value for the weapon attack roll
-function APO_WM_AttackAbilityModifier()
-    return GetModifier(context.Source.HitDescription.AttackAbility)
-end

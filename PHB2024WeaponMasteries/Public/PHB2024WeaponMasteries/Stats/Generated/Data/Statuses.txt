@@ -5,6 +5,13 @@ data "StackId" "APO_WM_CLEAVE_BLOCK"
 data "TickType" "EndTurn"
 data "StatusPropertyFlags" "DisableOverhead;DisablePortraitIndicator;DisableCombatlog"
 
+new entry "APO_WM_CLEAVE_ALLOW"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "APO_WM_CLEAVE_ALLOW"
+data "TickType" "EndTurn"
+data "StatusPropertyFlags" "DisableOverhead;DisablePortraitIndicator;DisableCombatlog"
+
 new entry "APO_WM_CLEAVE_UNLOCK"
 type "StatusData"
 data "StatusType" "BOOST"

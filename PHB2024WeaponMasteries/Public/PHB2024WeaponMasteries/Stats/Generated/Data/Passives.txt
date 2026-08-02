@@ -1,6 +1,17 @@
 // ======================================== REFERENCE: Proficiency Groups ========================================
 // Battleaxes;Clubs;Daggers;Darts;Flails;Glaives;Greataxes;Greatclubs;Greatswords;HandCrossbows;Halberds;Handaxes;HeavyArmor;HeavyCrossbows;Javelins;LightArmor;LightCrossbows;LightHammers;Longbows;Longswords;Mauls;Maces;MartialWeapons;MediumArmor;Morningstars;Quarterstaffs;Pikes;Rapiers;Shields;Scimitars;Shortbows;Shortswords;Sickles;SimpleWeapons;Slings;Spears;Tridents;Warhammers;Warpicks"
 
+// ======================================== FEAT: Weapon Mastery ========================================
+
+new entry "APO_FEAT_WeaponMaster"
+type "PassiveData"
+data "Icon" "PassiveFeature_MartialAdept"
+// Weapon Master
+data "DisplayName" "h3303e3fbg2cb7g440bga4dbgfdbb5721aa66;1"
+// Your training with weapons allows you to use the mastery property of one kind of Simple of Martial weapon of your choice. You must have <LSTag Tooltip="WeaponProficiency">Proficiency</LSTag> with the chosen weapon type in order to use its mastery property.
+data "Description" "h6e3c293ag12f4g4df1gba9ag237cc2015d64;1"
+data "Properties" "Highlighted;ForceShowInCC"
+
 // ======================================== Mastery Properties ======================================== 
 // Cleave
 new entry "APO_WM_Cleave"
@@ -15,18 +26,16 @@ data "ExtraDescription" "h374b8eb7g2365g4ad3gbfdfgba3068cf3548;1"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit) and IsWeaponOfProficiencyGroup('Greataxes|Halberds', GetAttackWeapon())"
-data "StatsFunctors" "ApplyStatus(APO_WM_CLEAVE_BLOCK,100,1);ApplyStatus(SELF,APO_WM_CLEAVE_UNLOCK,100,1)"
+data "StatsFunctors" "ApplyStatus(APO_WM_CLEAVE_BLOCK,100,1);ApplyStatus(SELF,APO_WM_CLEAVE_BLOCK,100,1);ApplyStatus(SELF,APO_WM_CLEAVE_UNLOCK,100,1);CreateExplosion(Projectile_APO_WM_CleaveAttack_Explosion)"
 
 // Graze
 new entry "APO_WM_Graze"
 type "PassiveData"
-data "Icon" "Action_PommelStrike"
+data "Icon" "Action_Mag_GiantBlade"
 // Weapon Mastery: Graze
 data "DisplayName" "he894fcdag4308g4364g8a7dgdab4d11119da;1"
-// When you miss an attack using this weapon, deal [1].
+// When you miss an attack using this weapon, deal damage equal to the <LSTag Tooltip="AbilityModifier">Modifier</LSTag> used to make the <LSTag Tooltip="Attack Roll">attack</LSTag>.
 data "Description" "hc788658agbbc2g4cd4gbb91g85bcc8520a00;1"
-// TO DO: see if this works
-data "DescriptionParams" "DealDamage(APO_WM_AttackAbilityModifier(),MainMeleeWeaponDamageType)"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockInterrupt(APO_WM_Graze)"
 
@@ -176,7 +185,7 @@ new entry "APO_WM_Quarterstaffs"
 type "PassiveData"
 using "APO_WM_Topple"
 data "Icon" "Action_Topple"
-// Weapon Mastery: Quarterstaffs
+// Weapon Mastery: Quarterstaves
 data "DisplayName" "h0f0a9fbfg2283g4f1egbc39ga2af4cecba6b;1"
 // When you hit a creature with a Quarterstaff, you can force the creature to make a Constitution <LSTag Tooltip="SavingThrow">Saving Throw</LSTag>.<br><br>On a failed save, the creature is knocked <LSTag Tooltip="Prone">Prone</LSTag> until the start of your next turn.
 data "Description" "haf7a27cfg87cdg43ebga5f8gdb358c461082;1"
@@ -326,7 +335,7 @@ type "PassiveData"
 using "APO_WM_Graze"
 // Weapon Mastery: Glaives
 data "DisplayName" "h87ba90e2ga3fbg4675g9f21g5f26cdde842c;1"
-// When you miss an attack using a Glaive, deal [1].
+// When you miss an attack using a Glaive, deal damage equal to the <LSTag Tooltip="AbilityModifier">Modifier</LSTag> used to make the <LSTag Tooltip="Attack Roll">attack</LSTag>.
 data "Description" "h7c3bf2a0gc508g41adg8799g62fff4e9f8aa;1"
 data "Boosts" "IF(IsWeaponOfProficiencyGroup('Glaives', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):UnlockInterrupt(APO_WM_Graze_Glaives)"
 
@@ -344,7 +353,7 @@ type "PassiveData"
 using "APO_WM_Graze"
 // Weapon Mastery: Greatswords
 data "DisplayName" "h6226083cgc8bbg470dgbb87g6580694df760;1"
-// When you miss an attack using a Greatsword, deal [1].
+// When you miss an attack using a Greatsword, deal damage equal to the <LSTag Tooltip="AbilityModifier">Modifier</LSTag> used to make the <LSTag Tooltip="Attack Roll">attack</LSTag>.
 data "Description" "h9510da94g1339g4d25g8600g16d12edd937d;1"
 data "Boosts" "IF(IsWeaponOfProficiencyGroup('Greatswords', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):UnlockInterrupt(APO_WM_Graze_Greatswords)"
 

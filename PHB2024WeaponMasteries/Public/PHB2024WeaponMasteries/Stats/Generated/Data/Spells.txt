@@ -12,10 +12,18 @@ data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon)-max(0,Goon_AttackAbilityM
 data "TargetConditions" "not Self() and not Dead() and not HasStatus('APO_WM_CLEAVE_BLOCK')"
 // Attack: Cleave
 data "DisplayName" "h21c23a7fg3e11g4296ga794gf1d94944458e;1"
-// Make a melee <LSTag Tooltip="Attack Roll">attack roll</LSTag> against a second creature within your reach.
+// Make a melee <LSTag Tooltip="Attack Roll">attack roll</LSTag> against a second creature within [1].
 data "Description" "ha87ac3a2g7389g480bgbf55gd52f2106988d;1"
+data "DescriptionParams" "Distance(1.5)"
 data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType)"
 data "SpellFlags" "IsAttack;IsMelee;IsHarmful;Temporary"
+
+new entry "Projectile_APO_WM_CleaveAttack_Explosion"
+type "SpellData"
+using "Projectile_HordeBreaker_Explosion"
+data "SpellType" "Projectile"
+data "SpellProperties" "AOE:ApplyStatus(APO_WM_CLEAVE_ALLOW,100,1)"
+data "TargetConditions" "not HasStatus('APO_WM_CLEAVE_BLOCK') and not Item()"
 
 // Nick Attack
 new entry "Target_APO_WM_NickAttack"
