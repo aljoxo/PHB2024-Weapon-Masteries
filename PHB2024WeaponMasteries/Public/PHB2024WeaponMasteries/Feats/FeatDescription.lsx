@@ -7,9 +7,9 @@
                 <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="h8a1dbcf9g9885g4480g8f9cgd5d5300b3599" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h3303e3fbg2cb7g440bga4dbgfdbb5721aa66" version="1"/>
-                    <attribute id="ExactMatch" type="FixedString" value="APO_WeaponMaster"/>
-                    <attribute id="FeatId" type="guid" value="548159db-e7be-4692-8ae7-83bf74e29be0"/>
-                    <attribute id="UUID" type="guid" value="1080c30b-5d10-491e-9493-8647c17caf82"/>
+                    <attribute id="ExactMatch" type="FixedString" value="WeaponMaster"/>
+                    <attribute id="FeatId" type="guid" value="b153e75c-27a2-4412-95cd-60b477121679"/>
+                    <attribute id="UUID" type="guid" value="e1c40138-38a8-4067-87a6-597b52f379fa"/>
                 </node>
             </children>
         </node>

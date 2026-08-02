@@ -7,6 +7,7 @@
 	<content contentuid="h3303e3fbg2cb7g440bga4dbgfdbb5721aa66" version="1">Weapon Master</content>
 	<content contentuid="h8a1dbcf9g9885g4480g8f9cgd5d5300b3599" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt; Your training with weapons allows you to use the mastery property of one kind of Simple of Martial weapon of your choice. You must have &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficiency&lt;/LSTag&gt; with the chosen weapon type in order to use its mastery property.</content>
 	<content contentuid="h6e3c293ag12f4g4df1gba9ag237cc2015d64" version="1">Your training with weapons allows you to use the mastery property of one kind of Simple of Martial weapon of your choice. You must have &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficiency&lt;/LSTag&gt; with the chosen weapon type in order to use its mastery property.</content>
+	<content contentuid="hd6fff8bfg2d1ag44cag89afg9849a5c92bef" version="1">You must have &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficiency&lt;/LSTag&gt; with this weapon type to use its mastery property.</content>
 
 	<!-- Cleave -->
 	<content contentuid="h21c23a7fg3e11g4296ga794gf1d94944458e" version="1">Attack: Cleave</content>
@@ -80,6 +81,8 @@
 	<content contentuid="h5b77f9fcg8867g4db7gb00cgfddeffe91fa9" version="1">When you hit a creature with a Javelin, you can reduce its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1] until the start of your next turn.</content>
 	<content contentuid="hc90c4834gb6e5g4827g89bfgfd07aa11b7f0" version="1">Weapon Mastery: Light Crossbows</content>
 	<content contentuid="hfa29b2bfgbfadg41a2gb30eg31b34e381717" version="1">When you hit a creature with a Light Crossbow, you can reduce its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1] until the start of your next turn.</content>
+	<content contentuid="h757e85a5g3752g4ed8g93e6g1272a306ca84" version="1">Weapon Mastery: Slings</content>
+	<content contentuid="h1240c5b9g4dc9g4679g87a6g116e3eaced7b" version="1">When you hit a creature with a Sling, you can reduce its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1] until the start of your next turn.</content>
 	<content contentuid="hfe4bc6f2g9838g436fgb4fbg109c343ca45d" version="1">Weapon Mastery: Longbows</content>
 	<content contentuid="h675fa27bg7d73g43e8g9232gf2bfbf1cda6c" version="1">When you hit a creature with a Longbow, you can reduce its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1] until the start of your next turn.</content>
 	<content contentuid="he825f933g11c6g4acfgb28dg1eb5429a42fc" version="1">Slowed</content>

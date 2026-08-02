@@ -3,11 +3,16 @@
     <version major="4" minor="8" revision="0" build="500"/>
     <region id="TooltipExtraTexts">
         <node id="root">
-            <!-- Once Per Turn -->
             <children>
+                <!-- Once Per Turn -->
                 <node id="TooltipExtraTexts">
                     <attribute id="Text" type="TranslatedString" handle="h374b8eb7g2365g4ad3gbfdfgba3068cf3548" version="1"/>
                     <attribute id="UUID" type="guid" value="ae2eb8fe-7dec-4e23-bc96-72def5de4b9e"/>
+                </node>
+                <!-- You must have <LSTag Tooltip="WeaponProficiency">Proficiency</LSTag> with this weapon type to use its mastery property. -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Text" type="TranslatedString" handle="hd6fff8bfg2d1ag44cag89afg9849a5c92bef" version="1"/>
+                    <attribute id="UUID" type="guid" value="9224ef2f-7516-4f08-8ba2-2fc196ab633c"/>
                 </node>
             </children>
         </node>
