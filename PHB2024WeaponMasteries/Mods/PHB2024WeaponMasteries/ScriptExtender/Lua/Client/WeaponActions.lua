@@ -1,3 +1,7 @@
+-- Script removes the vanilla Weapon Actions that are granted when you have proficiency with the equipped weapon type
+  -- This does not remove *special* Weapon Actions (e.g., Pahalar Aluve's Melody or The Sacred Star's Dawnburst Strike)
+  -- Thanks to Nzx for helping me write this script and providing feedback and lua expertise.
+
 local APO_WeaponSpells = {
   ["Target_PostureBreaker"] = true,
   ["Shout_Steady"] = true,
@@ -20,14 +24,6 @@ local APO_WeaponSpells = {
   ["Projectile_MobileShooting"] = true,
   ["Projectile_PiercingShot"] = true
 }
-
--- local function APO_SpellsToRemove(entry)
---   for i, name in ipairs(APO_WeaponSpells) do
---     if string.find(entry, name) then
---       return true
---     end
---   end
--- end
 
 Ext.Events.StatsLoaded:Subscribe(function(StatsLoaded)
   for i, name in pairs(Ext.Stats.GetStats("Weapon")) do
