@@ -8,6 +8,10 @@
 	<content contentuid="h8a1dbcf9g9885g4480g8f9cgd5d5300b3599" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt; Your training with weapons allows you to use the mastery property of one kind of Simple of Martial weapon of your choice. You must have &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficiency&lt;/LSTag&gt; with the chosen weapon type in order to use its mastery property.</content>
 	<content contentuid="h6e3c293ag12f4g4df1gba9ag237cc2015d64" version="1">Your training with weapons allows you to use the mastery property of one kind of Simple of Martial weapon of your choice. You must have &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficiency&lt;/LSTag&gt; with the chosen weapon type in order to use its mastery property.</content>
 	<content contentuid="hd6fff8bfg2d1ag44cag89afg9849a5c92bef" version="1">You must have &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficiency&lt;/LSTag&gt; with this weapon type to use its mastery property.</content>
+	<content contentuid="hb6e13d44g5956g49f4g8621g526cc0c5baa0" version="1">Your Strength is increased by [1].</content>
+	<content contentuid="hb2b3f6ccg8507g4f1fga17bg34a7f04bd693" version="1">Your Dexterity is increased by [1].</content>
+	<content contentuid="hf2832eb6ge09cg4713g86e2ge42542cb32f9" version="1">Weapon Master: Strength</content>
+	<content contentuid="hf2824b31g7533g4a52gb2eag34fe44cb170b" version="1">Weapon Master: Dexterity</content>
 
 	<!-- Cleave -->
 	<content contentuid="h21c23a7fg3e11g4296ga794gf1d94944458e" version="1">Attack: Cleave</content>

@@ -19,6 +19,11 @@
                     <attribute id="Passives" type="LSString" value="APO_WM_Clubs,APO_WM_Daggers,APO_WM_Darts,APO_WM_Handaxes,APO_WM_HandCrossbows,APO_WM_LightHammers,APO_WM_Rapiers,APO_WM_Scimitars,APO_WM_Shortswords,APO_WM_Sickles"/>
                     <attribute id="UUID" type="guid" value="10b330a5-3da9-4f75-a808-d6aa1ca4ce54"/>
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Weapon Mastery Ability Score Increase"/>
+                    <attribute id="Passives" type="LSString" value="APO_FEAT_WM_Strength,APO_FEAT_WM_Dexterity"/>
+                    <attribute id="UUID" type="guid" value="f8604f30-a276-41a2-aa9d-9f2b6130b268"/>
+                </node>
             </children>
         </node>
     </region>

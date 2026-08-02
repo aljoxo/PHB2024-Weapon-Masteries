@@ -5,11 +5,10 @@
         <node id="root">
             <children>
                 <node id="Feat">
-                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
-                    <attribute id="Name" type="FixedString" value="WeaponMaster"/>
-                    <attribute id="PassivesAdded" type="LSString" value="APO_FEAT_WeaponMaster" />
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(d4f1c93f-fb8a-41f7-bce5-4afbfb21576a,1,APO_WeaponMasteries)"/>
-                    <attribute id="UUID" type="guid" value="b153e75c-27a2-4412-95cd-60b477121679"/>
+	                <attribute id="Name" type="FixedString" value="WeaponMaster" />
+	                <attribute id="PassivesAdded" type="LSString" value="APO_FEAT_WeaponMaster" />
+	                <attribute id="Selectors" type="LSString" value="SelectPassives(f8604f30-a276-41a2-aa9d-9f2b6130b268,1);SelectPassives(d4f1c93f-fb8a-41f7-bce5-4afbfb21576a,1,APO_WeaponMasteries)" />
+	                <attribute id="UUID" type="guid" value="b153e75c-27a2-4412-95cd-60b477121679" />
                 </node>
             </children>
         </node>

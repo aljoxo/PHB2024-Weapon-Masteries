@@ -10,6 +10,28 @@ using "WeaponMaster"
 data "Description" "h6e3c293ag12f4g4df1gba9ag237cc2015d64;1"
 data "Properties" "Highlighted;ForceShowInCC"
 
+new entry "APO_FEAT_WM_Strength"
+type "PassiveData"
+// Weapon Master: Strength
+data "DisplayName" "hf2832eb6ge09cg4713g86e2ge42542cb32f9;1"
+// Your Strength increased by [1].
+data "Description" "hb6e13d44g5956g49f4g8621g526cc0c5baa0;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "APO_FEAT_WM_Dexterity"
+type "PassiveData"
+// Weapon Master: Dexterity
+data "DisplayName" "hf2824b31g7533g4a52gb2eag34fe44cb170b;1"
+// Your Dexterity increased by [1].
+data "Description" "hb2b3f6ccg8507g4f1fga17bg34a7f04bd693;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"
+
 // ======================================== Mastery Tooltips ======================================== 
 // Cleave
 new entry "APO_WM_CleaveTooltip"
