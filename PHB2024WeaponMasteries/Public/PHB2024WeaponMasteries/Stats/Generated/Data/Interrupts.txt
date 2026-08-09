@@ -30,42 +30,41 @@
 // data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('Greatswords', GetAttackWeapon())"
 
 // ============================== Push Interrupts ==============================
-// Reimplemented as a passive toggle
 
-// new entry "Interrupt_APO_WM_Push"
-// type "InterruptData"
-// data "Icon" "Action_PushingAttack_Melee"
-// // Weapon Mastery: Push
-// data "DisplayName" "h244b3815g2ba6g4babg8499gbb18368d56fc;1"
-// // You can push this creature up to [1] away from you.
-// data "Description" "h42c0ea96g634eg4a3cgaf64gccc7367f1fdb;1"
-// data "InterruptContext" "OnCastHit"
-// data "InterruptContextScope" "Self"
-// data "Container" "YesNoDecision"
-// data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and not (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('Greatclubs|Warhammers|Pikes', GetAttackWeapon())"
-// data "Properties" "TARGET:IF(TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(APO_WM_PUSH,100,0)"
-// data "InterruptDefaultValue" "Ask;Enabled"
-// data "EnableCondition" "Goon_InterruptEnableConditions()"
-// data "EnableContext" "OnStatusApplied;OnStatusRemoved"
-// data "InterruptFlags" "InterruptWhileInvisible"
-// 
-// new entry "Interrupt_APO_WM_Push_Greatclubs"
-// type "InterruptData"
-// using "Interrupt_APO_WM_Push"
-// data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and not (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('Greatclubs', GetAttackWeapon())"
-// 
-// new entry "Interrupt_APO_WM_Push_Pikes"
-// type "InterruptData"
-// using "Interrupt_APO_WM_Push"
-// data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and not (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('Pikes', GetAttackWeapon())"
-// 
-// new entry "Interrupt_APO_WM_Push_Warhammers"
-// type "InterruptData"
-// using "Interrupt_APO_WM_Push"
-// data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and not (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('Warhammers', GetAttackWeapon())"
-// 
-// new entry "Interrupt_APO_WM_Push_HeavyCrossbows"
-// type "InterruptData"
-// using "Interrupt_APO_WM_Push"
-// data "Icon" "Action_PushingAttack_Ranged"
-// data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('HeavyCrossbows', GetAttackWeapon())"
+new entry "Interrupt_APO_WM_Push"
+type "InterruptData"
+data "Icon" "Action_PushingAttack_Melee"
+// Weapon Mastery: Push
+data "DisplayName" "h244b3815g2ba6g4babg8499gbb18368d56fc;1"
+// You can push this creature up to [1] away from you.
+data "Description" "h42c0ea96g634eg4a3cgaf64gccc7367f1fdb;1"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and not (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('Greatclubs|Warhammers|Pikes', GetAttackWeapon())"
+data "Properties" "TARGET:IF(TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(APO_WM_PUSH,100,0)"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "Goon_BasicHarmfulInterruptEnableConditions()"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+data "InterruptFlags" "InterruptWhileInvisible"
+
+new entry "Interrupt_APO_WM_Push_Greatclubs"
+type "InterruptData"
+using "Interrupt_APO_WM_Push"
+data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and not (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('Greatclubs', GetAttackWeapon())"
+
+new entry "Interrupt_APO_WM_Push_Pikes"
+type "InterruptData"
+using "Interrupt_APO_WM_Push"
+data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and not (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('Pikes', GetAttackWeapon())"
+
+new entry "Interrupt_APO_WM_Push_Warhammers"
+type "InterruptData"
+using "Interrupt_APO_WM_Push"
+data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and not (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('Warhammers', GetAttackWeapon())"
+
+new entry "Interrupt_APO_WM_Push_HeavyCrossbows"
+type "InterruptData"
+using "Interrupt_APO_WM_Push"
+data "Icon" "Action_PushingAttack_Ranged"
+data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and IsProficientWithEquippedWeapon() and IsWeaponOfProficiencyGroup('HeavyCrossbows', GetAttackWeapon())"
