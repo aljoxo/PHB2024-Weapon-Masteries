@@ -8,7 +8,7 @@ type "PassiveData"
 using "WeaponMaster"
 // Your training with weapons allows you to use the mastery property of one kind of Simple of Martial weapon of your choice. You must have <LSTag Tooltip="WeaponProficiency">Proficiency</LSTag> with the chosen weapon type in order to use its mastery property.
 data "Description" "h6e3c293ag12f4g4df1gba9ag237cc2015d64;1"
-data "Properties" "Highlighted;ForceShowInCC"
+data "Properties" "Highlighted"
 
 new entry "APO_FEAT_WM_Strength"
 type "PassiveData"
