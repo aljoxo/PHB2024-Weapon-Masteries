@@ -1,0 +1,7 @@
+{
+    "RequiredVersion": 30,
+    "ModTable": "WeaponMasteriesPHB2024SERAWPatch",
+    "FeatureFlags": [
+        "Lua"
+    ]
+}
